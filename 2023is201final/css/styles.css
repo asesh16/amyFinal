@@ -1,0 +1,46 @@
+.darkGray{color: rgb(57, 69, 69);}
+
+.center{text-align: center;}
+
+body{
+    background-color: rgb(166, 196, 166);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* pad the paragraph from the edges */
+p{
+    margin-right: 10px;
+    margin-left: 10px; 
+}
+
+
+/* I got this from chat gpt, wanted to be able to have a gallery of photos: */
+.photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.photo-gallery img {
+    width: 100%;
+    height: 200px;
+    height: auto;
+    object-fit: cover; /*  Maintain aspect ratio and cover the entire container */
+}
+
+.tableauPlaceholder{
+    padding-left: 10;
+    padding-right: 10;
+}
+
+.underline{
+    text-decoration: underline;
+    color: rgb(69, 69, 69);
+}
+
+.link{
+    /* tells it to go all the way to the right but stay in the div and everything in the div will wrap around it  */
+    float: right;
+}
